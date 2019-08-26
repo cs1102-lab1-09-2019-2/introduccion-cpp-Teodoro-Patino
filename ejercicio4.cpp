@@ -1,5 +1,7 @@
-
+#include <iostream>
+using std::cout;
 int main() {
+    int c,i;
     i = 1;
 
     // Post-incremento asigna i a c y luego incrementa i
@@ -23,6 +25,6 @@ int main() {
     i--;
     cout<<"Decremento ejemplo: \n";
     cout<<"El valor de i es: "<<i<<"\n";
+    return 0;
 
 }
-
